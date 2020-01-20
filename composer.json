@@ -1,0 +1,17 @@
+{
+    "name": "jinas/jsonify",
+    "description": "Simple util class for json output",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Mohamed Jinas",
+            "email": "j@live.mv"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Jinas\\Jsonify\\": "src/"
+        }
+    }
+}
