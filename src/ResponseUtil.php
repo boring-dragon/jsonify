@@ -22,10 +22,11 @@ class ResponseUtil
         ];
     }
 
-    public static function makeError($message, array $data = [])
+    public static function makeError(array $data = [], $message)
     {
         $res = [
             'success' => false,
+            'data' => $data,
             'message' => $message,
         ];
 
