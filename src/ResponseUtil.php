@@ -2,14 +2,13 @@
 
 namespace Jinas\Jsonify;
 
-
 class ResponseUtil
 {
     /**
-     * makeResponse
+     * makeResponse.
      *
-     * @param  mixed $message
-     * @param  mixed $data
+     * @param mixed $message
+     * @param mixed $data
      *
      * @return void
      */
@@ -18,7 +17,7 @@ class ResponseUtil
         return [
             'success' => true,
             'data'    => $data,
-            'message' => $message
+            'message' => $message,
         ];
     }
 
@@ -26,7 +25,7 @@ class ResponseUtil
     {
         $res = [
             'success' => false,
-            'data' => $data,
+            'data'    => $data,
             'message' => $message,
         ];
 

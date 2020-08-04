@@ -2,17 +2,13 @@
 
 namespace Jinas\Jsonify;
 
-use Jinas\Jsonify\Response;
-use Jinas\Jsonify\ResponseUtil;
-
 class Util
 {
-
     /**
-     * sendResponse
+     * sendResponse.
      *
-     * @param  mixed $result
-     * @param  mixed $message
+     * @param mixed $result
+     * @param mixed $message
      *
      * @return void
      */
@@ -22,10 +18,10 @@ class Util
     }
 
     /**
-     * sendError
+     * sendError.
      *
-     * @param  mixed $error
-     * @param  mixed $code
+     * @param mixed $error
+     * @param mixed $code
      *
      * @return void
      */
